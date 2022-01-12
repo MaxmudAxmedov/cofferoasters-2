@@ -1,0 +1,68 @@
+.address{
+  width: 1045px;
+  margin: 0 auto 168px;
+  &__title{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin: 0 0 72px 0;
+  }
+}
+
+.address__list{
+  display: flex;
+  padding: 0;
+  list-style: none;
+  &__item{
+    width: 285px;
+  }
+  &__item:nth-child(2){
+    margin: 0 95px;
+    &__img-unitedKingdom,.address__img-canada,.address__img-australia{
+      margin-bottom: 45px;
+    }
+    &__img-unitedKingdom{
+      width: 35px; 
+      height: 49px;
+    }
+    &__img-canada{
+      width: 45px; 
+      height: 46px;
+    }
+    &__img-australia{
+      width: 49px; 
+      height: 37px;
+    }
+    &__item-title{
+      font-family: "Fraunces", sans-serif;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 36px;
+      color: $text-color;
+      margin: 0 0 24px 0;
+    }
+  }
+}
+.location{
+  padding: 0;
+  list-style: none;
+  &__item{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    margin: 0;
+    color: #333D4B;
+  }
+  &__tel{
+    text-decoration: none;
+    color: #333D4B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+

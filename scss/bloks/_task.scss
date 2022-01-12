@@ -1,0 +1,31 @@
+.task{
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 256px;
+  &__img{
+    width: 445px;
+    height: 520px;
+  }
+  &__content{
+    width: 540px;
+    &__title{
+      margin: 0 0 32px 0;
+      font-family: "Fraunces", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: $text-color;
+      &__text{
+        margin: 0;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;
+      }
+    }
+  }
+}

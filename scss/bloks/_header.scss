@@ -1,0 +1,40 @@
+.head{
+  display: flex;
+  align-items: center;
+  padding: 44px 0;
+  &__link{
+    display: block;
+    text-decoration: none;
+    margin-right: auto;
+    &__img{
+      width: 236px;
+      height: 26px;
+    }
+  }
+}
+
+.nav{
+  width: 283px;
+  &__list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    &__item:nth-child(2){
+      margin: 0 32px;
+      &__link{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover{
+          color: #333D4B;
+        }
+      }
+    }
+  }
+}
